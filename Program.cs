@@ -1,23 +1,15 @@
-﻿namespace MusteriTakip
+﻿namespace GenericsTraining
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Customer customer = new Customer();
-            CustomerManager customerManager = new CustomerManager();
-            Customer cust1 = customerManager.addCustomer("Denizhan Dursun", 1, 11111111111);
-            Customer cust2 = customerManager.addCustomer("Taha Yavuz", 2, 11111111112);
-            Customer cust3 = customerManager.addCustomer("Mert Tanrıverdi", 3, 11111111113);
-            customerManager.removeCustomer(cust1);
-            GC.Collect();
-            customerManager.listCustomers(cust1,cust2,cust3);
-            
-            
-           
-            
-            
-            
+            MyDictionary<int,string> myDictionary = new MyDictionary<int,string> { };
+            myDictionary.Add(1, "Deniz");
+            myDictionary.Add(2, "Ayşe");
+            myDictionary.Add(3, "Fulden");
+            myDictionary.Add(4, "Ahsen");
+            myDictionary.getWholeDict();
         }
     }
 }
