@@ -1,0 +1,247 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\vs\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
+  },
+  "projects": {
+    "F:\\vs\\ReCapProject\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\vs\\ReCapProject\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "F:\\vs\\ReCapProject\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
+        "outputPath": "F:\\vs\\ReCapProject\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\vs\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "F:\\vs\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              },
+              "F:\\vs\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "F:\\vs\\ReCapProject\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\vs\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\vs\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectName": "ConsoleUI",
+        "projectPath": "F:\\vs\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
+        "outputPath": "F:\\vs\\ReCapProject\\ConsoleUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\vs\\ReCapProject\\Business\\Business.csproj": {
+                "projectPath": "F:\\vs\\ReCapProject\\Business\\Business.csproj"
+              },
+              "F:\\vs\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "F:\\vs\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              },
+              "F:\\vs\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "F:\\vs\\ReCapProject\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\vs\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\vs\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "F:\\vs\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
+        "outputPath": "F:\\vs\\ReCapProject\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\vs\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "F:\\vs\\ReCapProject\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\vs\\ReCapProject\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\vs\\ReCapProject\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "F:\\vs\\ReCapProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
+        "outputPath": "F:\\vs\\ReCapProject\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
