@@ -1028,9 +1028,25 @@
           }
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -3182,6 +3198,11 @@
         "version.txt"
       ]
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -3190,6 +3211,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Core >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.8"
     ]
@@ -3219,6 +3241,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "F:\\vs\\ReCapProject\\Core\\Core.csproj": {
+              "projectPath": "F:\\vs\\ReCapProject\\Core\\Core.csproj"
+            },
             "F:\\vs\\ReCapProject\\Entities\\Entities.csproj": {
               "projectPath": "F:\\vs\\ReCapProject\\Entities\\Entities.csproj"
             }
