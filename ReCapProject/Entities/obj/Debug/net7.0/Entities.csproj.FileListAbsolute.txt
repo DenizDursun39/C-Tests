@@ -10,3 +10,6 @@ F:\vs\ReCapProject\Entities\obj\Debug\net7.0\Entities.dll
 F:\vs\ReCapProject\Entities\obj\Debug\net7.0\refint\Entities.dll
 F:\vs\ReCapProject\Entities\obj\Debug\net7.0\Entities.pdb
 F:\vs\ReCapProject\Entities\obj\Debug\net7.0\ref\Entities.dll
+F:\vs\ReCapProject\Entities\bin\Debug\net7.0\Core.dll
+F:\vs\ReCapProject\Entities\bin\Debug\net7.0\Core.pdb
+F:\vs\ReCapProject\Entities\obj\Debug\net7.0\Entities.csproj.CopyComplete
